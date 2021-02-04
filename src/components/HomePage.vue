@@ -15,7 +15,6 @@
 
           <ul class="info">
             <li><span>&#9742; 6975845071</span></li>
-            <li><span>&#9993; mieciel-1908@hotmail.com</span></li>
             <li><span> Analipsi, Thessaloniki</span></li>
           </ul>
 
@@ -36,6 +35,15 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 ><em class="fa fa-linkedin"></em
+              ></a>
+            </li>
+            <li>
+              <a
+                class="email"
+                href="mailto:mieciel-1908@hotmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><em class="fa fa-envelope"></em
               ></a>
             </li>
           </ul>
@@ -217,6 +225,7 @@ h3 {
 .social-icons li {
   display: inline-block;
   margin-bottom: 4px;
+  margin-top: 10px;
 }
 
 .social-icons a:active,
