@@ -114,13 +114,18 @@ main {
 }
 /* SOCIAL */
 .social-icons a {
-	width: 40px;
-	height: 40px;
-	line-height: 40px;
 	margin-left: 6px;
-	margin-right: 0;
+    margin-right: 8px;
 	border-radius: 100%;
-	background-color: transparent
+	background-color: transparent;
+	color: rgb(139, 80, 80);
+	display: block;
+	width: 30px;
+	height: 30px;
+    line-height: 27px;
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+    transition: all .2s linear;
 }
 
 .social-icons {
@@ -133,30 +138,6 @@ main {
 .social-icons li {
 	display: inline-block;
 	margin-bottom: 4px
-}
-
-.social-icons li.title {
-	margin-right: 15px;
-	text-transform: uppercase;
-	color: white;
-	font-weight: 700;
-	font-size: 13px
-}
-
-.social-icons a {
-	background-color: #eceeef;
-	color: #ccc;
-	font-size: 16px;
-	display: block;
-	line-height: 44px;
-	width: 44px;
-	height: 44px;
-	text-align: center;
-	margin-right: 8px;
-	border-radius: 100%;
-	-webkit-transition: all .2s linear;
-	-o-transition: all .2s linear;
-    transition: all .2s linear;
 }
 
 .social-icons a:active,
@@ -181,7 +162,4 @@ main {
 	background-color: #333
 }
 
-.fa{
-    margin: 13px;
-}
 </style>
