@@ -4,8 +4,10 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
   />
   <main>
-    <h1>MICHAIL KOPTSIS</h1>
-    <h3>Software Engineer</h3>
+    <div class="title">
+      <h1>MICHAIL KOPTSIS</h1>
+      <h3>Software Engineer</h3>
+    </div>
     <section class="glass">
       <div class="general">
         <div class="contact">
@@ -62,13 +64,20 @@ export default {};
 </script>
 
 <style>
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
+
 main {
   margin-top: -75px;
+  margin-bottom: 10px;
   min-height: 100vh;
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   display: flex;
@@ -79,12 +88,8 @@ main {
 .glass {
   background: white;
   min-height: 80vh;
-  width: 60%;
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
+  width: 70%;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   border-radius: 2rem;
   z-index: 2;
   backdrop-filter: blur(3rem);
@@ -105,12 +110,32 @@ main {
 }
 .circle1 {
   top: 5%;
-  right: 15%;
+  right: 10%;
 }
 .circle2 {
-  bottom: 2%;
-  left: 13%;
+  bottom: 0%;
+  left: 10%;
 }
+h1 {
+  border-bottom: 1px solid #65dfc9;
+  font-style: italic;
+  font-family: -webkit-body;
+}
+h3 {
+  font-style: italic;
+  font-family: -webkit-body;
+}
+.title {
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.5)
+  );
+  margin-bottom: 10px;
+  border-radius: 2rem;
+  padding: 8px;
+}
+
 /* LEFT DIV */
 .general {
   flex: 1;
@@ -128,10 +153,13 @@ main {
   display: flex;
   flex-direction: column;
 }
-.info li{
-    font-size: 0.88rem;
-    text-align: left;
-    margin-left: 30px;
+
+.info li {
+  font-size: 0.88rem;
+  font-style: italic;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 12px;
 }
 .education {
   flex: 2;
