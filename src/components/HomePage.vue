@@ -1,5 +1,8 @@
 <template>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
   <main>
     <h1>MICHAIL KOPTSIS</h1>
     <h3>Software Engineer</h3>
@@ -7,15 +10,33 @@
       <div class="general">
         <div class="contact">
           <h1>Contact</h1>
-          <span>&#9742; 6975845071</span>
-          <span>&#9993; mieciel-1908@hotmail.com</span>
-          <span> Analipsi, Thessaloniki</span>
+
+          <ul class="info">
+            <li><span>&#9742; 6975845071</span></li>
+            <li><span>&#9993; mieciel-1908@hotmail.com</span></li>
+            <li><span> Analipsi, Thessaloniki</span></li>
+          </ul>
+
           <ul class="social-icons">
-                <li><a class="github" href="https://github.com/mixailkop10" target="_blank"
-                        rel="noopener noreferrer"><em class="fa fa-github"></em></a></li>
-                <li><a class="linkedin" href="https://www.linkedin.com/in/mkoptsis/" target="_blank"
-                        rel="noopener noreferrer"><em class="fa fa-linkedin"></em></a></li>
-            </ul>
+            <li>
+              <a
+                class="github"
+                href="https://github.com/mixailkop10"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><em class="fa fa-github"></em
+              ></a>
+            </li>
+            <li>
+              <a
+                class="linkedin"
+                href="https://www.linkedin.com/in/mkoptsis/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><em class="fa fa-linkedin"></em
+              ></a>
+            </li>
+          </ul>
         </div>
         <div class="education">
           <h1>Education</h1>
@@ -90,15 +111,27 @@ main {
   bottom: 2%;
   left: 13%;
 }
+/* LEFT DIV */
 .general {
   flex: 1;
   display: flex;
   flex-direction: column;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
 }
 .contact {
   flex: 1;
   display: flex;
   flex-direction: column;
+}
+.info li{
+    font-size: 0.88rem;
+    text-align: left;
+    margin-left: 30px;
 }
 .education {
   flex: 2;
@@ -106,60 +139,77 @@ main {
 .other {
   flex: 1;
 }
+/* CENTRAL DIV */
 .work-exp {
   flex: 2;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
 }
+/* RIGHT DIV */
 .skills {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
 }
 /* SOCIAL */
 .social-icons a {
-	margin-left: 6px;
-    margin-right: 8px;
-	border-radius: 100%;
-	background-color: transparent;
-	color: rgb(139, 80, 80);
-	display: block;
-	width: 30px;
-	height: 30px;
-    line-height: 27px;
-	-webkit-transition: all .2s linear;
-	-o-transition: all .2s linear;
-    transition: all .2s linear;
+  margin-left: 6px;
+  margin-right: 8px;
+  border-radius: 100%;
+  background-color: transparent;
+  color: rgb(139, 80, 80);
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 27px;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 .social-icons {
-	padding-left: 0;
-	margin-bottom: 0;
-    list-style: none;
-    text-align: center;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  text-align: center;
 }
 
 .social-icons li {
-	display: inline-block;
-	margin-bottom: 4px
+  display: inline-block;
+  margin-bottom: 4px;
 }
 
 .social-icons a:active,
 .social-icons a:focus,
 .social-icons a:hover {
-	color: white;
-	background-color: #29aafe
+  color: white;
+  background-color: #29aafe;
 }
 
 .social-icons.size-sm a {
-	line-height: 34px;
-	height: 34px;
-	width: 34px;
-	font-size: 14px
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
 }
 
 .social-icons a.linkedin:hover {
-	background-color: #007bb6
+  background-color: #007bb6;
 }
 
 .social-icons a.github:hover {
-	background-color: #333
+  background-color: #333;
 }
-
 </style>
