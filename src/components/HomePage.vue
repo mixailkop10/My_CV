@@ -20,6 +20,7 @@ export default {};
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
 }
 main {
+  margin-top: -75px;
   min-height: 100vh;
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   display: flex;
@@ -37,5 +38,28 @@ main {
     rgba(255, 255, 255, 0.3)
   );
   border-radius: 2rem;
+  z-index: 2 ;
+  backdrop-filter: blur(3rem);
+}
+.circle1,
+.circle2 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.5)
+  );
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  border-radius: 50%;
+}
+.circle1 {
+  top: 5%;
+  right: 15%;
+}
+.circle2 {
+  bottom: 2%;
+  left: 13%;
 }
 </style>
