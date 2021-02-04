@@ -2,7 +2,25 @@
   <main>
     <h1>MICHAIL KOPTSIS</h1>
     <h3>Software Engineer</h3>
-    <section class="glass"></section>
+    <section class="glass">
+        <div class="general">
+            <div class="contact">
+                <h1>Contact</h1>
+            </div>
+            <div class="education">
+                <h1>Education</h1>
+            </div>
+            <div class="other">
+                <h1>Other</h1>
+            </div>
+        </div>
+        <div class="work-exp">
+            <h1>Work Experience</h1>
+        </div>
+        <div class="skills">
+            <h1>Skills</h1>
+        </div>
+    </section>
   </main>
   <div class="circle1"></div>
   <div class="circle2"></div>
@@ -17,7 +35,6 @@ export default {};
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
 }
 main {
   margin-top: -75px;
@@ -40,6 +57,7 @@ main {
   border-radius: 2rem;
   z-index: 2 ;
   backdrop-filter: blur(3rem);
+  display: flex;
 }
 .circle1,
 .circle2 {
@@ -61,5 +79,14 @@ main {
 .circle2 {
   bottom: 2%;
   left: 13%;
+}
+.general{
+    flex: 1;
+}
+.work-exp{
+    flex: 2;
+}
+.skills{
+    flex: 1;
 }
 </style>
