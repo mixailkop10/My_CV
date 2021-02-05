@@ -112,6 +112,25 @@
       </div>
       <div class="skills">
         <h1>Skills</h1>
+        <div class="premier-skills">
+          <ul>
+            <p>Java/Restlet/Hibernate</p>
+            <progress id="file" value="65" max="100"></progress>
+            <p>C#/ASP.NET/MVC</p>
+            <progress id="file" value="70" max="100"></progress>
+            <p>Vue JS</p>
+            <progress id="file" value="60" max="100"></progress>
+            <p>Angular/TS</p>
+            <progress id="file" value="50" max="100"></progress>
+            <p>HTML/CSS</p>
+            <progress id="file" value="80" max="100"></progress>
+            <p>Microsoft SQL Server</p>
+            <progress id="file" value="70" max="100"></progress>
+            <p>Git/Version Control</p>
+            <progress id="file" value="80" max="100"></progress>
+          </ul>
+        </div>
+        <div class="secondary-skills"></div>
       </div>
     </section>
   </main>
@@ -198,6 +217,9 @@ h3 {
 }
 li {
   list-style-type: "➭   ";
+}
+p{
+    font-size: 0.88rem;
 }
 
 /* LEFT DIV */
@@ -298,6 +320,9 @@ li {
     rgba(255, 255, 255, 0.3)
   );
   border-radius: 2rem;
+}
+.premier-skills{
+    border-bottom: 1px solid #65dfc9;
 }
 /* SOCIAL */
 .social-icons a {
