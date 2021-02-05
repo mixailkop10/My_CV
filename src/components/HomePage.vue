@@ -121,6 +121,9 @@
         <div class="merchant">
           <h4>Bender of Bridal Outfits @Family Business</h4>
           <span class="date">Aug 17 - Nov 20</span>
+          <ul class="tasks">
+            <li>Produced communication strategies to meet client's needs</li>
+          </ul>
         </div>
         <div class="coffe-island">
           <h4>Barista & Coffee Grinder @Coffee Island</h4>
@@ -354,6 +357,23 @@ p {
 .coffe-island,
 .todaylicious {
   flex: 1;
+  
+}
+.tasks{
+    background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+}
+.tasks li {
+  list-style-type: "# ";
+  list-style-position: inside;
+  font-size: 0.70rem;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 8px;
 }
 /* RIGHT DIV */
 .skills {
