@@ -124,7 +124,7 @@
           </ul>
         </div>
         <div class="merchant">
-          <h4>Bender of Bridal Outfits @Family Business</h4>
+          <h4>Vender of Bridal Outfits @Family Business</h4>
           <span class="date">Aug 17 - Nov 20</span>
           <ul class="tasks">
             <li>Produced communication strategies to meet client's needs</li>
@@ -133,10 +133,19 @@
         <div class="coffe-island">
           <h4>Barista & Coffee Grinder @Coffee Island</h4>
           <span class="date">Aug 18 - May 19</span>
+          <ul class="tasks">
+              <li>Listened to customer desires and needs to recommend optimal products</li>
+              <li>Hard work program</li>
+          </ul>
         </div>
         <div class="todaylicious">
           <h4>Barista & Cachier @Todays Stores</h4>
           <span class="date">June 16 - July 18</span>
+          <ul class="tasks">
+              <li>Hard work program</li>
+              <li>Simultaneously task execution due to summer season period</li>
+              <li>Monitoring company databases to ensure accuracy of inventory</li>
+          </ul>
         </div>
       </div>
       <div class="skills">
@@ -364,13 +373,7 @@ p {
   flex: 1;
   
 }
-.tasks{
-    background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
-}
+
 .tasks li {
   list-style-type: "# ";
   list-style-position: inside;
