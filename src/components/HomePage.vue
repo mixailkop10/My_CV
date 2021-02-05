@@ -137,7 +137,7 @@
             <progress id="file" value="70" max="100"></progress>
             <p>Vue JS</p>
             <progress id="file" value="60" max="100"></progress>
-            <p>Angular/TS</p>
+            <p>Angular/TypeScript</p>
             <progress id="file" value="50" max="100"></progress>
             <p>HTML/CSS</p>
             <progress id="file" value="80" max="100"></progress>
@@ -153,8 +153,8 @@
             <li><span>Team Management</span></li>
             <li><span>Multi-tasking</span></li>
             <li><span>Organization</span></li>
-            <li><span>Client Relations</span></li>
             <li><span>Excellent Communication</span></li>
+            <li><span>Client Relations</span></li>
           </ul>
         </div>
       </div>
