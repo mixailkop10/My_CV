@@ -51,15 +51,39 @@
         <div class="education">
           <h1>Education</h1>
           <ul>
-              <li><span class="degree">Applied Informatics, 2017  University of Macedonia</span></li>
-              <li><span class="thesis-title">Thesis:</span><span> E2 ( tax declaration ) in digital form executed in Java</span></li>
-              <li><span class="internship-title">Internship:</span><span> Accounting Office Mr. Stavropoulos, Office Work</span></li>
-              <li><span class="project-fut-title">Project Future:</span><span> ReGeneration Academy of .NET (CodeHub 2020)</span></li>
-              <li><span class="pfizer-boot-title">Pfizer Bootcamp:</span><span> Academy of Java & Angular (CodeHub 2020)</span></li>
+            <li>
+              <span class="degree"
+                >Applied Informatics, 2017 University of Macedonia</span
+              >
+            </li>
+            <li>
+              <span class="thesis-title">Thesis:</span
+              ><span>
+                E2 ( tax declaration ) in digital form executed in Java</span
+              >
+            </li>
+            <li>
+              <span class="internship-title">Internship:</span
+              ><span> Accounting Office Mr. Stavropoulos, Office Work</span>
+            </li>
+            <li>
+              <span class="project-fut-title">Project Future:</span
+              ><span> ReGeneration Academy of .NET (CodeHub 2020)</span>
+            </li>
+            <li>
+              <span class="pfizer-boot-title">Pfizer Bootcamp:</span
+              ><span> Academy of Java & Angular (CodeHub 2020)</span>
+            </li>
           </ul>
         </div>
         <div class="other">
           <h1>Other</h1>
+          <ul>
+            <li><span class="other-title">English </span><span class="grade">, lvl B2</span></li>
+            <li><span class="other-title">French </span><span class="grade">, lvl B1</span></li>
+            <li><span class="other-title">Driving License </span><span class="grade">A1,B</span></li>
+            <li><span class="other-title">Fullfilled Military Obligations</span></li>
+          </ul>
         </div>
       </div>
       <div class="work-exp">
@@ -79,7 +103,6 @@ export default {};
 </script>
 
 <style>
-
 * {
   margin: 0;
   padding: 0;
@@ -152,8 +175,8 @@ h3 {
   font-style: italic;
   font-family: -webkit-body;
 }
-li{
-    list-style-type: '➭   ';
+li {
+  list-style-type: "➭   ";
 }
 
 /* LEFT DIV */
@@ -186,30 +209,46 @@ li{
 .education {
   flex: 2;
 }
-.education li{
-    font-size: 0.88rem;
+.education li {
+  font-size: 0.88rem;
   font-style: italic;
   text-align: left;
   margin-left: 30px;
   margin-top: 12px;
 }
-.degree{
-    font-weight: bold;
+.degree {
+  font-weight: bold;
 }
-.thesis-title{
-    color: rgb(0, 162, 255);
+.thesis-title {
+  color: rgb(0, 162, 255);
 }
-.internship-title{
-    color: rgb(0, 162, 255);
+.internship-title {
+  color: rgb(0, 162, 255);
 }
-.project-fut-title{
-    color: rgb(0, 110, 255);
+.project-fut-title {
+  color: rgb(0, 110, 255);
 }
-.pfizer-boot-title{
-    color: rgb(0, 110, 255);
+.pfizer-boot-title {
+  color: rgb(0, 110, 255);
 }
 .other {
   flex: 1;
+  margin-bottom: 6px;
+}
+.other li {
+  font-size: 0.88rem;
+  font-style: italic;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 12px;
+}
+.other-title{
+    border-bottom: 1px solid rgb(0, 89, 255);
+}
+.grade{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
 }
 /* CENTRAL DIV */
 .work-exp {
