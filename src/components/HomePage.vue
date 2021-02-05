@@ -266,6 +266,7 @@ h4 {
   font-style: italic;
   font-family: -webkit-pictograph;
   text-decoration: underline;
+  color: #007bb6;
 }
 li {
   list-style-type: "➭   ";
@@ -343,11 +344,11 @@ p {
   margin-left: 30px;
   margin-top: 12px;
 }
-.other-title {
+/* .other-title {
   background-color: rgb(168, 222, 230);
   border-radius: 50%;
   padding: 6px;
-}
+} */
 .grade {
   font-family: Arial, Helvetica, sans-serif;
   font-style: oblique;
@@ -358,6 +359,7 @@ p {
   flex: 2;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   background: linear-gradient(
     to right bottom,
     rgba(255, 255, 255, 0.7),
