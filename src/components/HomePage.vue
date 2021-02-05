@@ -117,6 +117,11 @@
         <div class="airbnb">
           <h4>Property Administrator @AirBnb</h4>
           <span class="date">May 19 - Sept 20</span>
+          <ul class="tasks">
+              <li>Communicating with candidate clients</li>
+              <li>Demonstrating on Airbnb platform</li>
+              <li>Initiated on the market demand per season</li>
+          </ul>
         </div>
         <div class="merchant">
           <h4>Bender of Bridal Outfits @Family Business</h4>
