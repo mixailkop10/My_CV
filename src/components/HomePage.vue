@@ -109,6 +109,23 @@
       </div>
       <div class="work-exp">
         <h1>Work Experience</h1>
+        
+          <div class="pfizer">
+            <h4>Solution Engineer, Pfizer</h4>
+          </div>
+          <div class="airbnb">
+            <h4>Property Administrator, AirBnb</h4>
+          </div>
+          <div class="merchant">
+            <h4>Bender of Bridal Outfits, Family Business</h4>
+          </div>
+          <div class="coffe-island">
+            <h4>Barista & Coffee Grinder, Coffee Island</h4>
+          </div>
+          <div class="todaylicious">
+            <h4>Barista & Cachier,Todays Stores</h4>
+          </div>
+        
       </div>
       <div class="skills">
         <h1>Skills</h1>
@@ -318,6 +335,9 @@ p {
     rgba(255, 255, 255, 0.3)
   );
   border-radius: 2rem;
+}
+.pfizer,.airbnb,.merchant,.coffe-island,.todaylicious{
+    flex: 1;
 }
 /* RIGHT DIV */
 .skills {
