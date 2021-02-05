@@ -67,11 +67,21 @@
               ><span> Accounting Office Mr. Stavropoulos, Office Work</span>
             </li>
             <li>
-              <span class="project-fut-title">Project Future:</span
+              <a
+                class="project-fut-title"
+                href="https://github.com/mixailkop10/FundMeUp-.Net-Project"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Project Future:</a
               ><span> ReGeneration Academy of .NET (CodeHub 2020)</span>
             </li>
             <li>
-              <span class="pfizer-boot-title">Pfizer Bootcamp:</span
+              <a
+                class="pfizer-boot-title"
+                href="https://github.com/mixailkop10/Pfizer-Sacchon-App"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Pfizer Bootcamp:</a
               ><span> Academy of Java & Angular (CodeHub 2020)</span>
             </li>
           </ul>
@@ -79,10 +89,21 @@
         <div class="other">
           <h1>Other</h1>
           <ul>
-            <li><span class="other-title">English </span><span class="grade">, lvl B2</span></li>
-            <li><span class="other-title">French </span><span class="grade">, lvl B1</span></li>
-            <li><span class="other-title">Driving License </span><span class="grade">A1,B</span></li>
-            <li><span class="other-title">Fullfilled Military Obligations</span></li>
+            <li>
+              <span class="other-title">English </span
+              ><span class="grade">, lvl B2</span>
+            </li>
+            <li>
+              <span class="other-title">French </span
+              ><span class="grade">, lvl B1</span>
+            </li>
+            <li>
+              <span class="other-title">Driving License </span
+              ><span class="grade">A1,B</span>
+            </li>
+            <li>
+              <span class="other-title">Fullfilled Military Obligations</span>
+            </li>
           </ul>
         </div>
       </div>
@@ -227,9 +248,11 @@ li {
 }
 .project-fut-title {
   color: rgb(0, 110, 255);
+  text-decoration: none;
 }
 .pfizer-boot-title {
   color: rgb(0, 110, 255);
+  text-decoration: none;
 }
 .other {
   flex: 1;
@@ -242,13 +265,15 @@ li {
   margin-left: 30px;
   margin-top: 12px;
 }
-.other-title{
-    border-bottom: 1px solid rgb(0, 89, 255);
+.other-title {
+  background-color: rgb(168, 222, 230);
+  border-radius: 50%;
+  padding: 6px;
 }
-.grade{
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: oblique;
-    font-weight: bold;
+.grade {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  font-weight: bold;
 }
 /* CENTRAL DIV */
 .work-exp {
@@ -290,13 +315,6 @@ li {
   transition: all 0.2s linear;
 }
 
-.social-icons {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-  text-align: center;
-}
-
 .social-icons li {
   display: inline-block;
   margin-bottom: 4px;
@@ -308,13 +326,6 @@ li {
 .social-icons a:hover {
   color: white;
   background-color: #29aafe;
-}
-
-.social-icons.size-sm a {
-  line-height: 34px;
-  height: 34px;
-  width: 34px;
-  font-size: 14px;
 }
 
 .social-icons a.linkedin:hover {
