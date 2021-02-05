@@ -130,7 +130,16 @@
             <progress id="file" value="80" max="100"></progress>
           </ul>
         </div>
-        <div class="secondary-skills"></div>
+        <div class="secondary-skills">
+          <ul>
+            <li><span>MS Office Proficient</span></li>
+            <li><span>Team Management</span></li>
+            <li><span>Multi-tasking</span></li>
+            <li><span>Organization</span></li>
+            <li><span>Client Relations</span></li>
+            <li><span>Excellent Communication</span></li>
+          </ul>
+        </div>
       </div>
     </section>
   </main>
@@ -218,8 +227,9 @@ h3 {
 li {
   list-style-type: "➭   ";
 }
-p{
-    font-size: 0.88rem;
+p {
+  margin-top: 10px;
+  font-size: 0.88rem;
 }
 
 /* LEFT DIV */
@@ -321,8 +331,20 @@ p{
   );
   border-radius: 2rem;
 }
-.premier-skills{
-    border-bottom: 1px solid #65dfc9;
+.premier-skills {
+  border-bottom: 1px solid #65dfc9;
+  flex: 1.5;
+}
+.secondary-skills {
+  flex: 1;
+}
+.secondary-skills ul li {
+  font-size: 0.88rem;
+  font-style: italic;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 15px;
+  list-style-type: "➨";
 }
 /* SOCIAL */
 .social-icons a {
