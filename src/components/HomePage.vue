@@ -51,7 +51,11 @@
         <div class="education">
           <h1>Education</h1>
           <ul>
-              <li><span>Applied Informatics, University of Macedonia ,2017</span></li>
+              <li><span class="degree">Applied Informatics, 2017  University of Macedonia</span></li>
+              <li><span class="thesis-title">Thesis:</span><span> E2 ( tax declaration ) in digital form executed in Java</span></li>
+              <li><span class="internship-title">Internship:</span><span> Accounting Office Mr. Stavropoulos, Office Work</span></li>
+              <li><span class="project-fut-title">Project Future:</span><span> ReGeneration Academy of .NET (CodeHub 2020)</span></li>
+              <li><span class="pfizer-boot-title">Pfizer Bootcamp:</span><span> Academy of Java & Angular (CodeHub 2020)</span></li>
           </ul>
         </div>
         <div class="other">
@@ -149,15 +153,15 @@ h3 {
   font-family: -webkit-body;
 }
 li{
-    list-style-type: '➭  ';
+    list-style-type: '➭   ';
 }
-
 
 /* LEFT DIV */
 .general {
   flex: 1;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   background: linear-gradient(
     to right bottom,
     rgba(255, 255, 255, 0.7),
@@ -169,6 +173,7 @@ li{
   flex: 1;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .info li {
@@ -180,6 +185,28 @@ li{
 }
 .education {
   flex: 2;
+}
+.education li{
+    font-size: 0.88rem;
+  font-style: italic;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 12px;
+}
+.degree{
+    font-weight: bold;
+}
+.thesis-title{
+    color: rgb(0, 162, 255);
+}
+.internship-title{
+    color: rgb(0, 162, 255);
+}
+.project-fut-title{
+    color: rgb(0, 110, 255);
+}
+.pfizer-boot-title{
+    color: rgb(0, 110, 255);
 }
 .other {
   flex: 1;
