@@ -247,6 +247,7 @@ main {
     rgba(255, 255, 255, 1),
     rgba(255, 255, 255, 0.5)
   );
+  margin-top: 20px;
   margin-bottom: 10px;
   border-radius: 2rem;
   padding: 8px;
