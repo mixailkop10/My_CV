@@ -50,6 +50,9 @@
         </div>
         <div class="education">
           <h1>Education</h1>
+          <ul>
+              <li><span>Applied Informatics, University of Macedonia ,2017</span></li>
+          </ul>
         </div>
         <div class="other">
           <h1>Other</h1>
@@ -124,15 +127,6 @@ main {
   bottom: 0%;
   left: 10%;
 }
-h1 {
-  border-bottom: 1px solid #65dfc9;
-  font-style: italic;
-  font-family: -webkit-body;
-}
-h3 {
-  font-style: italic;
-  font-family: -webkit-body;
-}
 .title {
   background: linear-gradient(
     to right bottom,
@@ -143,6 +137,21 @@ h3 {
   border-radius: 2rem;
   padding: 8px;
 }
+
+/* APPLY TO ALL */
+h1 {
+  border-bottom: 1px solid #65dfc9;
+  font-style: italic;
+  font-family: -webkit-body;
+}
+h3 {
+  font-style: italic;
+  font-family: -webkit-body;
+}
+li{
+    list-style-type: '➭  ';
+}
+
 
 /* LEFT DIV */
 .general {
