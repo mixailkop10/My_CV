@@ -109,23 +109,27 @@
       </div>
       <div class="work-exp">
         <h1>Work Experience</h1>
-        
-          <div class="pfizer">
-            <h4>Solution Engineer, Pfizer</h4>
-          </div>
-          <div class="airbnb">
-            <h4>Property Administrator, AirBnb</h4>
-          </div>
-          <div class="merchant">
-            <h4>Bender of Bridal Outfits, Family Business</h4>
-          </div>
-          <div class="coffe-island">
-            <h4>Barista & Coffee Grinder, Coffee Island</h4>
-          </div>
-          <div class="todaylicious">
-            <h4>Barista & Cachier,Todays Stores</h4>
-          </div>
-        
+
+        <div class="pfizer">
+          <h4>Solution Engineer @Pfizer</h4>
+          <span class="date">Nov 20 - Present</span>
+        </div>
+        <div class="airbnb">
+          <h4>Property Administrator @AirBnb</h4>
+          <span class="date">May 19 - Sept 20</span>
+        </div>
+        <div class="merchant">
+          <h4>Bender of Bridal Outfits @Family Business</h4>
+          <span class="date">Aug 17 - Nov 20</span>
+        </div>
+        <div class="coffe-island">
+          <h4>Barista & Coffee Grinder @Coffee Island</h4>
+          <span class="date">Aug 18 - May 19</span>
+        </div>
+        <div class="todaylicious">
+          <h4>Barista & Cachier @Todays Stores</h4>
+          <span class="date">June 16 - July 18</span>
+        </div>
       </div>
       <div class="skills">
         <h1>Skills</h1>
@@ -241,12 +245,20 @@ h3 {
   font-style: italic;
   font-family: -webkit-body;
 }
+h4 {
+  font-style: italic;
+  font-family: -webkit-pictograph;
+  text-decoration: underline;
+}
 li {
   list-style-type: "➭   ";
 }
 p {
   margin-top: 10px;
   font-size: 0.88rem;
+}
+.date {
+  font-size: 0.7rem;
 }
 
 /* LEFT DIV */
@@ -336,8 +348,12 @@ p {
   );
   border-radius: 2rem;
 }
-.pfizer,.airbnb,.merchant,.coffe-island,.todaylicious{
-    flex: 1;
+.pfizer,
+.airbnb,
+.merchant,
+.coffe-island,
+.todaylicious {
+  flex: 1;
 }
 /* RIGHT DIV */
 .skills {
