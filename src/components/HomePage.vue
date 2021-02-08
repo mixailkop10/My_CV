@@ -118,9 +118,9 @@
           <h4>Property Administrator @AirBnb</h4>
           <span class="date">May 19 - Sept 20</span>
           <ul class="tasks">
-              <li>Communicating with candidate clients</li>
-              <li>Demonstrating on Airbnb platform</li>
-              <li>Initiated on the market demand per season</li>
+            <li>Communicating with candidate clients</li>
+            <li>Demonstrating on Airbnb platform</li>
+            <li>Initiated on the market demand per season</li>
           </ul>
         </div>
         <div class="merchant">
@@ -134,17 +134,22 @@
           <h4>Barista & Coffee Grinder @Coffee Island</h4>
           <span class="date">Aug 18 - May 19</span>
           <ul class="tasks">
-              <li>Listened to customer desires and needs to recommend optimal products</li>
-              <li>Hard work program</li>
+            <li>Hard work program</li>
+            <li>
+              Listened to customer desires and needs to recommend optimal
+              products
+            </li>
           </ul>
         </div>
         <div class="todaylicious">
           <h4>Barista & Cachier @Todays Stores</h4>
           <span class="date">June 16 - July 18</span>
           <ul class="tasks">
-              <li>Hard work program</li>
-              <li>Simultaneously task execution due to summer season period</li>
-              <li>Monitoring company databases to ensure accuracy of inventory</li>
+            <li>Hard work program</li>
+            <li>Simultaneously task execution due to summer season period</li>
+            <li>
+              Monitoring company databases to ensure accuracy of inventory
+            </li>
           </ul>
         </div>
       </div>
@@ -374,13 +379,12 @@ p {
 .coffe-island,
 .todaylicious {
   flex: 1;
-  
 }
 
 .tasks li {
   list-style-type: "# ";
   list-style-position: inside;
-  font-size: 0.70rem;
+  font-size: 0.7rem;
   font-style: italic;
   font-weight: bold;
   text-align: center;
