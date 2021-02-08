@@ -5,8 +5,8 @@
   />
   <main>
     <div class="title">
-      <h1>MICHAIL KOPTSIS</h1>
-      <h3>Software Engineer</h3>
+      <h1>{{ name }}</h1>
+      <h3>{{ job }}</h3>
     </div>
     <section class="glass">
       <div class="general">
@@ -191,7 +191,14 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      name: "Michail Koptsis",
+      job: "Software Engineer",
+    };
+  },
+};
 </script>
 
 <style>
@@ -262,6 +269,7 @@ main {
 h1 {
   border-bottom: 1px solid #65dfc9;
   font-style: italic;
+  text-transform: uppercase;
   font-family: -webkit-body;
 }
 h3 {
